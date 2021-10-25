@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Test Task</title>
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+		rel="stylesheet">
+</head>
+<body onload="standrtSort()">
+	<header>
+		<div class="logo">
+			<a href="index.html"><img  class="logo-img grow" src="img/logo.png"></a>
+		</div>
+		<div class="linkes">
+			<div class="topnav" id="topnav">
+				<a href="#" class="grow header-link modal-btn" data-path="form-popup">LOGIN</a>
+				<a href="#" class="grow header-link modal-btn" data-path="me-popup">SIGN UP</a>
+				<a href="#" id="menu" class="menu-btn menu-icon grow header-link">&#9776</a>
+				
+				<div class="menu">
+					<nav>
+						<li><a href="#hero" class="menu-link">Home</a></li>
+						<li><a href="#advantage" class="menu-link">advantage</a></li>
+						<li><a href="#product" class="menu-link">product</a></li>
+						<li><a href="#review" class="menu-link">reviews</a></li>
+						<li><a href="#receptes" class="menu-link">CUISINES</a></li>
+					</nav>
+				</div>
+				
+
+			</div>
+		</div>
+	</header>
+	
+	<section id="hero" class="hero">
+		<h2 class="hero-sub-title wow animate__animated animate__fadeInDown">Find your Favorite</h2>
+		<h1 class="hero-titile wow animate__animated animate__fadeInDown">RECIPES</h1>
+		<div class="btn-hero">
+			<a id="mybtn" href="#advantage" class="hero-link grow">GET STARTED</a>
+		</div>
+		<p class="hero-p wow animate__animated animate__fadeInDown">OR SEND US YOUR OWN RECIPES AND <a href="#">GET REWARDED</a></p>
+	</section>
+
+
+	<section id="advantage">
+
+	<div class="wrapper">
+			<div class="advantage-cards">
+			
+				<div class="card">
+					<div class="img-item grow wow animate__animated animate__fadeInDown">
+						<img src="img/item_1.png">
+					</div>
+					<p class="title">GET INSPIRED</p>
+					<div class="line"></div>
+					<p class="sub-titile">Lorem ipsum dolor sit amet, consectetur adipisc
+						Pellentesque vel enim a elit viverra elementuma.
+						Aliquam erat volutpat.</p>
+				</div>
+			
+				<div class="card">
+					<div class="img-item grow wow animate__animated animate__fadeInDown">
+						<img src="img/item_2.png">
+					</div>
+					<p class="title">GET REWARDED</p>
+					<div class="line"></div>
+					<p class="sub-titile">Lorem ipsum dolor sit amet, consectetur adipisc
+						Pellentesque vel enim a elit viverra elementuma.
+						Aliquam erat volutpat.</p>
+				</div>
+			
+				<div class="card">
+					<div class="img-item grow wow animate__animated animate__fadeInDown">
+						<img src="img/item_3.png">
+					</div>
+					<p class="title">GET SOCIAL</p>
+					<div class="line"></div>
+					<p class="sub-titile">Lorem ipsum dolor sit amet, consectetur adipisc
+						Pellentesque vel enim a elit viverra elementuma.
+						Aliquam erat volutpat.</p>
+				</div>
+			
+			</div>
+	</div>
+	</section>
+
+	<section id="product">
+		<div class="wrapper">
+			<div class="poduct-block">
+				<div class="phone">
+					<img class="iphone" src="img/iphone.png">
+				</div>
+				<div class="about">
+					<row>
+						<h2 class="wow animate__animated animate__fadeInRight">INTRODUCING THE FUDI APP</h2>
+						<div class="line-about wow animate__animated animate__fadeInRight"></div>
+						<p class="about-text wow animate__animated animate__fadeIn">Morbi eget posuere dolor. Pellentesque cursus aliquet aliquet. Aeneanet
+							felis sit amet diam mollis ullamcorper. Nullam consequat sem a ante vest
+							ibulum tristique. Suspendisse tristique lacus ac mattis porta.
+							<br><br>
+							Vivamus ligula quam, vehicula non lacinia sed, faucibus sit amet libero. In
+							libero dui, eleifend eu nisi id, egestas fringilla odio. In varius quam a mas
+							sa hendrerit ullamcorper a eu justo. Suspendisse porta mattis convallis.
+							Aenean tempus ligula ac odio rhoncus, quis aliquam dolor accumsan.<br><br>
+							Suspendisse aliquet felis consectetur libero congue, sed pulvinar diam
+							malesuada. Duis vehicula a nibh id hendrerit. Donec sit amet ultrices
+							ante, a mattis massa.
+						</p>
+						<div class="buttons"></div>
+						<a  class="appsmarket wow animate__animated animate__fadeInRight" href="https://www.apple.com/ua/app-store/" target="_blank"><img class="wow animate__animated animate__fadeInDown" id="btn-animate" src="img/app-store.png"></a>
+						<a class="google-play" href="https://play.google.com/store?hl=ru&gl=US" target="_blank"><img class="wow animate__animated animate__fadeInDown" id="btn-animate" src="img/google-play.png"></a>
+						</div>
+					</row>
+			</div>
+		</div>
+	</section>
+
+	
+	
+	
+
+	<section id="review">
+		<div class="slider">
+		
+			<div class="item">
+				<img class="face" src="img/face.png">
+				<p class="review-text">“I am so happy because I found this recipe, and it just made my life easier.
+					Thanks so much for sharing!”</p>
+				<span class="review-name">- Michael Dawson, San Francisco, CA -</span>
+				
+			</div>
+
+			<div class="item">
+				<img class="face" src="img/face.png">
+				<p class="review-text">“Eleifend faucibus finibus facilisis condimentum sollicitudin velit aenean habitasse vitae
+					semper, vel phasellus iaculis mi placerat”</p>
+				<span class="review-name">- Tim Ford, Los-Angeles, CA -</span>
+			</div>
+		
+			<div class="item">
+				<img class="face" src="img/face.png">
+				<p class="review-text">“Lorem ipsum dolor sit amet, consectetur adipisc
+					Pellentesque vel enim a elit viverra elementuma.
+					Aliquam erat volutpat.”</p>
+				<span class="review-name">- Piter Run, New-York, CA -</span>
+			</div>
+		
+			<a class="previous" onclick="previousSlide()">&#10094;</a>
+			<a class="next" onclick="nextSlide()">&#10095;</a>
+		</div>
+	</section>
+
+	
+	<section id="receptes">
+			<h2 class="receptes-title wow animate__animated animate__fadeInDown">BROWSE BY CUISINES</h2>
+			<div class="line-resept"></div>
+			<div class="filter-block">
+				<p>SORT BY</p>
+				<a id="btn-plus" href="" class="wow animate__animated animate__fadeIn">increasing</a>
+				<a id="btn-minus" href="" class="wow animate__animated animate__fadeIn">decreasing</a>
+			</div>
+		<div id="recept-container" class="recept-container"></div>
+	</section>
+
+
+	<section id="numbers">
+		<div class="wrapper">
+			<div id="counter" class="numbers-row">
+	
+				<div class="number-item wow animate__animated animate__fadeIn">
+					<div class="num counter" id="item_2" data-target="23567"></div>
+					<p class="number-text">Recipes Available</p>
+				</div>
+
+				<div class="number-item wow animate__animated animate__fadeIn">
+					<div class="num counter" id="item_2" data-target="431729"></div>
+					<p class="number-text">Active Users</p>
+				</div>
+
+				<div class="number-item wow animate__animated animate__fadeIn">
+					<div class="num counter" id="item_3" data-target="892173"></div>
+					<p class="number-text">Positive Reviews</p>
+				</div>
+
+				<div class="number-item wow animate__animated animate__fadeIn">
+					<div class="num counter" id="item_4" data-target="56581"></div>
+					<p class="number-text">Photos & Videos</p>
+				</div>
+
+				<div class="number-item wow animate__animated animate__fadeIn">
+					<div class="num counter" id="item_5" data-target="3182"></div>
+					<p class="number-text">Spices and Herbs</p>
+				</div>
+	
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="wrapper2">
+			<div class="footer-content">
+				<p class="rights">©2014 Fudi. All Rights Reserved.<p>
+				<span class="design-by">DESIGN BY:  <a href="http://www.bekades.com/" target="_blank" class="bekades">WWW.BEKADES.COM</a></span>
+			</div>
+		</div>
+	</footer>
+
+	<div class="modals">
+		<div class="modal-overlay">
+			
+			<div class="modal modal--1" data-target="form-popup">
+				<img class="modal-logo" src="img/logo.png">
+				<h3 class="modal-title">LOGIN</h3>
+				<form method="post">
+					<input type="text" name="u" placeholder="Username" required="required" />
+					<input type="password" name="p" placeholder="Password" required="required" />
+					<button type="submit" class="btn-form btn btn-primary btn-block btn-large">LOGIN</button>
+				</form>
+			</div>
+			
+			<div class="modal modal--2" data-target="me-popup">
+				<img class="modal-logo" src="img/logo.png">
+				<h3 class="modal-title">SIGN UP</h3>
+				<form method="post">
+					<input type="text" name="u" placeholder="Username" required="required" />
+					<input type="password" name="p" placeholder="Password" required="required" />
+					<button type="submit" class="btn-form btn btn-primary btn-block btn-large">SIGN UP</button>
+				</form>
+			</div>
+		
+		</div>
+	</div>
+
+	
+
+<script src="js/wow.min.js"></script>
+<script>
+	new WOW().init();
+</script>
+
+<script src="js/menu.js"></script>
+<script src="js/recept.js"></script>
+<script src="js/numbers.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/modal.js"></script>
+
+
+</body>
+</html>
+
+
